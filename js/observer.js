@@ -3,6 +3,8 @@ function Observer(data) {
     this.walk(data);
 }
 
+console.log('2222');
+
 Observer.prototype = {
     constructor: Observer,
     walk: function(data) {
